@@ -1,0 +1,2576 @@
+:root{
+    --gray-color: #F2F0F1;
+    --black-color: #000000;
+    --light-color: #ffffff;
+    --dark-color: #616060;
+    --yellow-color:#FFC633;
+
+
+
+}
+
+
+*{
+    
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: "Barlow Condensed", sans-serif;
+    background:white;
+    height: 100vh;
+    margin: 0;
+}
+header .bar-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black-color);
+}
+header .bar{
+    width: 77.5rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .bar .address{
+    position: relative;
+    left: 30%;
+    width: 21.9rem;
+}
+header .bar h2{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: auto;
+    color: var(--light-color);
+}
+header .bar a{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--light-color);
+}
+header .bar img{
+    margin: 0.625rem 0 0.625rem 4rem;
+}
+header .mobile-nav{
+    display: none;
+}
+header nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav .nav-container{
+    width: 77.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+header nav .logo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.38rem;
+    text-align: left;
+
+}
+header nav .titles, header nav .vectors{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+header nav .titles{
+    max-width: 30rem;
+}
+header nav .titles li a{
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.35rem;
+    text-align: left;
+    color: var(--dark-color);
+
+}
+header nav input{
+    width: 34.8rem;
+    height: auto;
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+    border-radius: 3.8rem;
+    border: none;
+    background-color: var(--gray-color);
+}
+header nav input .search-icon::before{
+    content: url("../home/home-images/search.svg")
+}
+
+
+
+.small-line{
+    width: 37.5rem;
+    border: 1px solid var(--gray-color);
+}
+.large-line{
+    width: 77.5rem;
+    border: 1px solid var(--gray-color);
+    margin-top: 1rem;
+}
+.line, .header-line{
+    width: 77.5rem;
+    border: 1px solid var(--gray-color);
+
+}
+section{
+    width: 100%;
+} 
+section .title{
+    color: var(--black-color);
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+} 
+section ul{
+    list-style: none;
+}
+.single-product .arrows-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-product .arrows-container .Arrows{
+    width: 77.5rem;
+    height: 1.375rem;
+}
+.single-product .arrows-container  .arrows{
+    width: 16.2rem;
+    display: flex;
+    justify-content: flex-start; 
+    gap: 0.5rem;
+    height: auto;
+    list-style: none;
+    margin-left: -1.8em;
+}
+
+.single-product .arrows li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark-color);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.35rem;
+    text-align: left;
+}
+.single-product .hero-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-product .hero-sec .hero-sec-container{
+    width: 77.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.single-product .hero-sec .left img{
+    width: 27.75rem;
+    height: 33.125rem;
+}
+.single-product .hero-sec .right{
+    ont-family: "Barlow Condensed", sans-serif;
+    width: 37.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.single-product .hero-sec .right ul{
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    width: 8.9rem;
+    height: 2.3rem;
+    gap: 0.5rem;
+    margin: 1.25rem 0 1.25rem -2.5em;
+}
+.single-product .hero-sec .right img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.single-product .hero-sec .right .sub-title{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.single-product .hero-sec .right ul li button{
+    width: 6rem;
+    height: 2.5rem;
+    padding: 0.4rem 1.5rem;
+    border-radius: 3.875rem;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    text-align: center;
+    
+}
+.single-product .hero-sec .right ul li button:hover{
+    background: var(--black-color);
+    color: var(--light-color);
+}
+.single-product .hero-sec .right .add-subtract button{
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.single-product .hero-sec .right .add-subtract button:hover{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: #2d2c2c7d;
+    transition: 0.5s ease;
+}
+.single-product .right .right-up div{
+    display: flex;
+    flex-direction:row;
+    gap: 0.4rem;
+    margin-top: -2em;
+}
+.single-product .right .right-up div h2{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.single-product .right .right-up h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    width: 37rem;
+    height: auto;
+}
+.single-product .right .right-up p{
+    width: 36.875rem;
+}
+.single-product .right .right-up h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+.single-product .right .right-up i{
+    font-weight: 1rem;
+    color: var(--yellow-color);
+}
+/*.single-product .hero-sec .right .right-up h1{
+    font-size: 1rem;
+    font-weight: 700;
+}*/
+.single-product .hero-sec .right .cart-stuff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 37.5rem;
+}
+.single-product .hero-sec .right .add-subtract{
+    margin: 0.625rem 0;
+    width: 10.625rem;
+    height: 3.25rem;
+    padding: 1rem 1.25rem;
+    border-radius: 3.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray-color);
+    border: none;
+}
+.single-product .hero-sec .right .add-subtract h2{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.single-product .hero-sec .right .cart-stuff .add-to-cart{
+    width: 25rem;
+    height: 3.25rem;
+    margin: 0.625rem 0;
+    padding: 0.625rem 3.3rem;
+    border-radius: 3.8rem;
+    background: var(--black-color);
+    text-decoration: none;
+    text-align: center;
+    color: var(--light-color);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.35rem;
+    border: none;
+
+}
+.single-product .wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single-product .wrapper .wrapper-container{
+    width: 77.5rem;
+}
+.single-product .wrapper .tabs ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 1rem;
+    letter-spacing: 0.03rem;
+
+}
+.single-product .wrapper .tabs .large-line{
+    width: 77.5rem;
+    border: 1px solid var(--gray-color);
+}
+.single-product .wrapper .tabs ul li{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+    text-align: left;
+    color: var(--dark-color);
+}
+.single-product .wrapper .tabs ul li:hover{
+    color: var(--black-color);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.single-product .wrapper .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 1.5rem;
+}
+.single-product .wrapper .all .review h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    text-align: left;
+
+}
+.single-product .wrapper .all .review h1 span{
+    width: 2.06rem;
+    height: 0.69rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+    text-align: left;
+    color: var(--dark-color);
+}
+.single-product .wrapper .all .settings ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 22.4rem;
+    height: auto;
+    gap: 0.625rem;
+
+
+}
+.single-product .wrapper .all .settings ul a{
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--black-color);
+}
+.single-product .wrapper .all .settings ul .set{
+    background: var(--gray-color);
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.single-product .wrapper .all .settings ul .img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.single-product .wrapper .all .settings ul .two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray-color);
+    width: 7.5rem;
+    height: 3rem;
+    padding: 1rem 1.25rem;
+    border-radius: 3.8rem;
+
+}
+.single-product .wrapper .all .settings ul .write{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black-color);
+    width: 10.375rem;
+    height: 3rem;
+    padding: 1rem 1.25rem;
+    border-radius: 3.875rem;
+
+}
+.single-product .wrapper .all .settings ul .write a{
+    color: var(--light-color);
+}
+.single-product .wrapper .reviews{
+    width: 77.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+.single-product .wrapper .reviews ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+.single-product .wrapper .reviews .user-review{
+    max-width: 38.125rem;
+    height: 15.1rem;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    border: 1px solid var(--gray-color);
+    font-family: "Barlow Condensed", sans-serif;
+    color: var(--dark-color);
+    text-align: left;
+    margin-left: 0;
+}
+.single-product .wrapper .reviews .user-review p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+    text-align: left;
+    height: 4.125rem;
+    
+}
+.single-product .wrapper .reviews .user-review h1{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    text-align: left;
+}
+.single-product .wrapper .reviews .user-review .star{
+    display: flex;
+    justify-content: space-between;
+}
+.single-product .wrapper .reviews .user-review .stars{
+    margin: 0 0 0 -2.5em;
+}
+.single-product .wrapper .reviews .user-review ul .name{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    text-align: left;
+    margin: 0 0.3em 0 -1.5em;
+    color: var(--black-color);
+
+}
+.single-product .wrapper .load{
+    margin: 2.5rem auto;
+    width: 20rem;
+    height: auto;
+    padding: 0.9rem 2.5rem 0.9rem 6rem;
+    border-radius: 3.875rem;
+    border: 1px solid var(--gray-color);
+
+}
+.single-product .wrapper .load a{
+    text-decoration: none;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.35rem;
+    text-align: center;
+    color: var(--black-color);
+}
+section .also-liked{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    
+}
+
+section .also-liked .product-list{
+    width: 77.5rem;
+    height: auto;
+}
+section .also-liked .product-list a{
+    font-family: "Barlow Condensed", sans-serif;
+    color: var(--black-color);
+    text-decoration: none;
+    width: 18.4rem;
+    height: 30rem;
+}
+section .also-liked h2, section .also-liked h3{
+    font-size: 1.5rem;
+    line-height: 1.6875rem;
+    font-weight:700;
+    text-align: left;
+
+}
+section .also-liked .product-list a p{
+    margin-top: -3.5em;
+}
+section .also-liked .product-list i{
+    color: var(--yellow-color);
+
+}
+section .also-liked .group-2.hidden{
+    display: none;
+}
+
+section .also-liked .stars{
+    margin: 0 0 0 -2.5em;
+}
+section .also-liked .product-list .group-1, 
+section .also-liked .group-2.visible{
+    max-width: 77.5rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    height: auto;
+    
+}
+section .also-liked .product-list img{
+    width: 15rem;
+    height: 16.8rem;
+    display: flex;
+    margin:auto;
+}
+section .also-liked .product-list h2{
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+section .also-liked .product-list .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.75rem;
+    
+}
+section .also-liked .product-list button{
+    width: 13.625rem;
+    height: auto;
+    padding: 1rem 3.375rem;
+    border-radius: 3.8rem;
+    border: none;
+    background: var(--light-color);
+    border: 1px solid var(--gray-color);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.35rem;
+    
+}
+
+section .also-liked .product-list button:hover{
+    background: var(--gray-color);
+}
+
+/* footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray-color);
+    z-index: 1;
+}
+footer .boxes-container{
+    margin-left: 7rem;
+}
+footer .gray-box{
+    width: 90rem;
+    height: auto;
+    font-family:"Barlow Condensed", sans-serif;
+    z-index: 2;
+
+}
+footer .gray-box ul{
+    list-style: none;
+}
+
+footer .black-box{
+    z-index: 10;
+    background: var(--black-color);
+    width: 77.5rem;
+    height: 11.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    position: relative;
+    top: -5em;
+    border-radius: 1.25rem;
+    padding: 2.25rem 4rem;
+}
+footer .black-box h1{
+    font-size: 3.1rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    text-align: left;
+    width: 34.44rem;
+    height: auto;
+    color: var(--light-color);
+}
+footer .black-box .email-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+footer .black-box .email-subscribe  input, footer .black-box .email-subscribe button{
+    width: 21.8rem;
+    height: 3rem;
+    padding: 0.75rem 1rem;
+    border-radius: 3.875rem;
+    border: none;
+    background: var(--light-color);
+}
+footer .black-box .email-subscribe input, footer .black-box .email-subscribe button{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.35rem;
+    text-align: left;
+}
+footer .black-box .email-subscribe button{
+    width: 21.8rem;
+    height: 3rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+footer .black-box .email-subscribe button:hover{
+    background: var(--black-color);
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+}
+footer .gray-box .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 77.5rem;
+    height: auto;
+    margin-top: -1.875em;
+    margin-left: 6rem;
+
+
+}
+footer .gray-box .footer-content .left-footer{
+    height: auto;
+}
+footer .gray-box .footer-content .left-footer .same-title{
+    font-family: "Oswald",sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: left;
+    margin: 0 0 1.25rem 0;
+}
+footer .gray-box .footer-content .left-footer .social-media{
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    margin: 1.25em 0 0.5rem -2.5em;
+}
+footer .gray-box .footer-content .right-footer .cat-title{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: 0.2rem;
+    text-align: left;
+    margin: 0 0 1.25rem 0;
+}
+footer .gray-box .footer-content .right-footer .cat, footer .gray-box .footer-content .left-footer p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    text-align: left;
+    margin: 0 0 0.625rem 0;
+}
+footer .gray-box .footer-of-footer{
+    width: 77.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer .gray-box .footer-of-footer h2{
+    width: 16.8rem;
+    height: auto;
+    font-size: 0.87rem;
+    font-weight: 400;
+    line-height: 1.18rem;
+    text-align: right;
+    margin: 1.875rem 0 0 1.8rem;
+}
+footer .gray-box .footer-of-footer .pay{
+    display: flex;
+    width: 17.6rem;
+    height: 1.88rem;
+    gap: 0.5rem;
+}
+footer .line{
+    width: 77.5rem;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+}
+/* responsive version*/
+@media(min-width: 1100px) and (max-width:1350px){
+    /*header*/
+    header .bar{
+        width: 61rem;
+        height: 1.9rem;
+    }
+    header .bar h2{
+        font-size: 0.75rem;
+    }
+    header .bar a{
+        font-size: 0.75rem;
+    }
+
+    header nav .nav-container{
+        width: 61rem;
+        justify-content: space-between;
+        margin-top: 0.7rem;
+    }
+    header nav .logo{
+        font-size: 1.75rem;
+        line-height: 2rem;
+    
+    }
+    header nav .titles, header nav .vectors{
+        gap: 1rem;
+    }
+    header nav .titles{
+        width: 18rem;
+    }
+    header nav .titles li a{
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+    header nav input{
+        width: 27.3rem;
+        padding: 0.75rem 1rem;
+        border-radius: 3.8rem;
+    }
+    /*section*/
+    .small-line{
+        width: 29.5rem;
+    }
+    .large-line{
+        width: 61rem;
+        margin-top: 1rem;
+    }
+    .line, .header-line{
+        width: 61rem;
+    }
+    section .title{
+        font-size: 2.36rem;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    } 
+    .single-product .arrows-container .Arrows{
+        width: 61rem;
+        height: 1.1rem;
+    }
+    .single-product .arrows-container  .arrows{
+        width: 17rem; 
+        margin-left: -2.3em;
+    }
+    
+    .single-product .arrows li{
+        color: var(--dark-color);
+        font-size: 0.87rem;;
+        line-height: 1.25rem;
+    }
+    .single-product .hero-sec .hero-sec-container{
+        width: 61rem;
+    }
+    .single-product .hero-sec .left img{
+        width: 25rem;
+        height: 30rem;
+    }
+    .single-product .hero-sec .right{
+        width: 29.5rem;
+    
+    }
+    .single-product .hero-sec .right ul{
+        width: 7rem;
+        height: 1.8rem;
+    }
+    .single-product .hero-sec .right img{
+        width: 1.82rem;
+        height: 1.82rem;
+    }
+    .single-product .hero-sec .right ul li button{
+        width: 5rem;
+        height: 2rem;
+        padding: 0.4rem 1.2rem;
+        border-radius: 3.875rem;
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 1.3rem;
+        text-align: center;
+    }
+    .single-product .hero-sec .right .add-subtract button{
+        width: 1.2rem;
+        height: 1.52em;
+    }
+    .single-product .hero-sec .right .add-subtract button:hover{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .single-product .right .right-up div{
+        margin-top: -2.5em;
+    }
+
+    .single-product .right .right-up h1{
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: left;
+        width: 29rem;
+        height: auto;
+    }
+    .single-product .right .right-up p{
+        width: 29rem;
+    }
+    .single-product .right .right-up h3{
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .single-product .right .right-up i{
+        font-weight: 1rem;
+        color: var(--yellow-color);
+    }
+    .single-product .hero-sec .right .cart-stuff{
+        gap: 1rem;
+        width: 29.5rem;
+    }
+    .single-product .hero-sec .right .add-subtract{
+        width: 10.625rem;
+        height: 2.55rem;
+    }
+    .single-product .hero-sec .right .cart-stuff .add-to-cart{
+        width: 19.6rem;
+        height: 2.55rem;
+        margin: 0.625rem 0;
+        font-size: 0.8rem;
+        line-height: 1.25rem;
+    }
+    .single-product .wrapper .wrapper-container{
+        width: 61rem;
+    }
+    
+    .single-product .wrapper .tabs ul{
+        margin: 1rem;
+    
+    }
+    .single-product .wrapper .tabs .large-line{
+        width: 61rem;
+        margin-left: 0.5rem;
+    }
+    .single-product .wrapper .tabs ul li{
+        font-size: 1rem;
+        line-height: 1.25rem;
+        
+    }
+    .single-product .wrapper .all{
+        margin: 0 0 0 1rem;
+    }
+    .single-product .wrapper .all .review h1{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    .single-product .wrapper .all .review h1 span{
+        font-size: 0.78rem;
+        line-height: 1.25rem;
+    }
+    .single-product .wrapper .all .settings ul{
+        width: 20rem;
+        gap: 0.5rem;
+    }
+    .single-product .wrapper .all .settings ul a{
+        font-size: 0.78rem;
+    }
+    .single-product .wrapper .all .settings ul .set{
+        width: 2.4rem;
+        height: 2.4rem;
+    
+    }
+
+    .single-product .wrapper .all .settings ul .two{
+        width: 5.9rem;
+        height: 2.4rem;
+        padding: 1rem 1.25rem;
+        border-radius: 3.8rem;
+    }
+    .single-product .wrapper .all .settings ul .write{
+        width: 8.2rem;
+        height: 2.4rem;
+    }
+    .single-product .wrapper .reviews{
+        width: 61rem;
+        gap: 1rem;
+        margin: 0.5rem 0 0.5rem 0.5rem;
+    }
+    .single-product .wrapper .reviews .user-review{
+        max-width: 30rem;
+        height: 15.1rem;
+
+    }
+    .single-product .wrapper .reviews .user-review p{
+        font-size: 0.78rem;
+        line-height: 0.8rem;
+    }
+    .single-product .wrapper .reviews .user-review h1{
+        margin-top: 0.5rem;
+        font-size: 0.78rem;
+        line-height: 1.25rem;
+    }
+    .single-product .wrapper .reviews .user-review ul .name{
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-left: -1.7em;
+    }
+    .single-product .wrapper .load{
+        width: 15.7rem;
+        padding: 0.9rem 2.5rem 0.9rem 4.5rem;
+    }
+    .single-product .wrapper .load a{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+    section .also-liked{
+        margin-left: -1.5rem;
+    }
+    section .also-liked .product-list{
+        width: 61rem;
+    }
+    section .also-liked .product-list a{
+        width: 14.5rem;
+        height: 22rem;
+    }
+    section .also-liked h2, section .also-liked h3{
+        font-size: 1.2rem;
+        line-height: 1.32rem;
+    }
+    section .also-liked .product-list a p{
+        margin-top: 0em;
+    }
+
+    section .also-liked .product-list .group-1, 
+    section .also-liked .group-2.visible{
+        max-width: 61rem;
+        gap: 1.2rem;
+    }
+    section .also-liked .product-list img{
+        width: 11.8rem;
+        height: 13.2rem;
+    }
+    section .also-liked .product-list h2{
+        height: 0rem;
+        margin-bottom: 2rem;
+    }
+    section .also-liked .product-list button{
+        width: 10.72rem;
+        padding: 1rem 2.6rem;
+        font-size: 0.78rem;
+        line-height: 1.1rem;
+        
+    }
+    
+    /*footer*/
+    footer .boxes-container{
+        margin-left: 2rem;
+    }
+    footer .gray-box{
+        width: 71rem;
+    }
+    footer .gray-box ul{
+        list-style: none;
+    }
+    
+    footer .black-box{
+        width: 61rem;
+        padding: 2.25rem 4rem;
+        margin-left: 5rem;
+    }
+    footer .black-box h1{
+        font-size: 2.5rem;
+        width: 27rem;
+    }
+    footer .black-box .email-subscribe  input, footer .black-box .email-subscribe button{
+        width: 17.2rem;
+        height: 3rem;
+        
+        border-radius: 3.875rem;
+        border: none;
+        background: var(--light-color);
+    }
+    footer .black-box .email-subscribe  input{
+        padding-left: 1rem;
+    }
+    footer .black-box .email-subscribe input, footer .black-box .email-subscribe button{
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.35rem;
+        text-align: left;
+    }
+    footer .black-box .email-subscribe button{
+        width: 17.2rem;
+        text-align: center;
+        padding-left:0.2rem;
+    
+    }
+    footer .gray-box .footer-content{
+        width: 61rem;
+    }
+    footer .gray-box .footer-content .left-footer{
+        height: auto;
+    }
+    footer .gray-box .footer-content .left-footer .same-title{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    footer .gray-box .footer-content .right-footer .cat-title{
+        font-size: 0.9rem;
+        line-height: 1rem;
+
+    }
+    footer .gray-box .footer-content .right-footer .cat, footer .gray-box .footer-content .left-footer p{
+        font-size: 0.9rem;
+        line-height: 1rem;
+
+    }
+    footer .gray-box .footer-of-footer{
+        width: 61.6rem;
+    }
+    footer .gray-box .footer-of-footer h2{
+        width: 13.2rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
+        margin-left: 0;
+    }
+    footer .gray-box .footer-of-footer .pay{
+        display: flex;
+        width: 13.9rem;
+        height: 1.88rem;
+        gap: 0.4rem;
+    }
+    footer .gray-box .footer-of-footer .pay img{
+        width: 2.9rem;
+        height: 1.9rem;
+        
+    }
+    footer .line{
+        width: 61rem;
+    }
+}
+@media(min-width: 870px) and (max-width:1099px){
+    /*header*/
+    header .bar{
+        width: 51rem;
+        height: 1.6rem;
+    }
+    header .bar .address{
+        left: 30%;
+        width: 16rem;
+    }
+    header .bar h2{
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin: auto;
+        color: var(--light-color);
+        
+    }
+    header .bar a{
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: var(--light-color);
+    }
+    header .bar img{
+        margin: 0.625rem 0;
+    }
+    header nav .nav-container{
+        width: 51rem;
+        justify-content: space-between;
+    }
+    header nav .logo{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    
+    }
+    header nav .titles, header nav .vectors{
+        gap: 1.3rem;
+    }
+    header nav .titles{
+        width: 20rem;
+    }
+    header nav .titles li a{
+        font-size: 0.66rem;
+        font-weight: 400;
+        line-height: 0.6rem;
+    }
+    header nav input{
+        width: 22.9rem;
+        height: auto;
+    }
+    header nav input .search-icon::before{
+        content: url("../home/home-images/search.svg")
+    }
+    /*section*/
+    .small-line{
+        width: 24.7rem;
+    }
+    .large-line, .line, .header-line{
+        width: 51rem;
+    }
+
+    section .title{
+        font-size: 2rem;
+        line-height: 3rem;
+    } 
+    .single-product .arrows-container .Arrows{
+        width: 51rem;
+        height: 1rem;
+    }
+    .single-product .arrows-container  .arrows{
+        width: 14rem; 
+        gap: 0.3rem;
+        margin-left: -2.5em;
+    }
+    
+    .single-product .arrows li{
+        font-size: 0.78rem;
+        line-height: 1rem;
+    }
+    .single-product .hero-sec .hero-sec-container{
+        width: 51rem;
+        margin-top: 2rem;
+    }
+    .single-product .hero-sec .left img{
+        width: 20rem;
+        height: 21.8rem;
+    }
+    .single-product .hero-sec .right{
+        width: 23rem;
+    }
+    .single-product .hero-sec .right ul{ 
+        width: 5.9rem;
+        gap: 0.3rem;
+    }
+    .single-product .hero-sec .right .select img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .single-product .hero-sec .right ul li button{
+        width: 4rem;
+        height: 1.7rem;
+        padding: 0.3rem 1rem;
+        border-radius: 2.55rem;
+        font-size: 0.55rem;
+    }
+    .single-product .hero-sec .right .add-subtract button{
+        width: 1rem;
+        height: 1rem;
+    }
+    .single-product .hero-sec .right .add-subtract button:hover{
+        width: 1rem;
+        height: 1rem;
+    }
+    .single-product .right .right-up div{
+        display: flex;
+        flex-direction:row;
+        gap: 0.4rem;
+        margin-top: -2em;
+    }
+    .single-product .right .right-up div h2{
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    .single-product .right .right-up h1{
+        font-size: 2rem;
+        font-weight: 700;
+        width: 24rem;
+    }
+    .single-product .right .right-up p{
+        width: 24.2rem;
+        font-size: 0.7rem;
+    }
+    .single-product .right .right-up h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 0;
+    }
+    /*.single-product .hero-sec .right .right-up h1{
+        font-size: 1rem;
+        font-weight: 700;
+    }*/
+    .single-product .hero-sec .right .cart-stuff{
+        width: 24.5rem;
+    }
+    .single-product .hero-sec .right .add-subtract{
+        margin: 0.625rem 0;
+        width: 6.99rem;
+        height: 2.13rem;
+        padding: 0.6rem 0.82rem;
+        border-radius: 2.5rem;
+        font-size: 0.9rem;
+    }
+    .single-product .hero-sec .right .cart-stuff .add-to-cart{
+        width: 16.45rem;
+        height: 2.13rem;
+        margin: 0.625rem 0;
+        padding: 0.4rem 2.2rem;
+        border-radius: 2.5rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    .single-product .wrapper .wrapper-container{
+        width: 51rem;
+    }
+    .single-product .wrapper .tabs ul{
+        justify-content: space-around;
+        margin:1rem 1rem 1rem -3rem;
+    
+    }
+    .single-product .wrapper .tabs .large-line{
+        width: 51rem;
+    }
+    .single-product .wrapper .tabs ul li{
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .single-product .wrapper .all{
+        width: 51rem;
+        margin: 0 0 0 1.5rem;
+    }
+    .single-product .wrapper .all .review h1{
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+    
+    }
+    .single-product .wrapper .all .review h1 span{
+        font-size: 0.6rem;
+        line-height: 0.9rem;
+    }
+    .single-product .wrapper .all .settings ul{
+        width: 17rem;
+        gap: 0.2rem;
+    }
+    .single-product .wrapper .all .settings ul .set{
+        width: 2rem;
+        height: 2rem;
+    }
+    .single-product .wrapper .all .settings ul .two{
+        width: 4.9rem;
+        height: 2rem;
+        padding: 0.7rem 0.82rem;
+        border-radius: 2.5rem;
+        
+    
+    }
+    .single-product .wrapper .all .settings ul .write{
+        width: 6.8rem;
+        height: 2rem;
+        padding: 0.7rem 0.82rem;
+        border-radius: 2.5rem;
+        
+    
+    }
+    .single-product .wrapper .all .settings ul a{
+        font-size: 0.8rem;
+    }
+    .single-product .wrapper .reviews{
+        width: 51rem;
+        gap: 1rem;
+        margin: 0.4rem 0;
+    }
+    .single-product .wrapper .reviews .user-review{
+        max-width: 25.1rem;
+        height: 13rem;
+        padding: 1.5rem;
+        border-radius: 1.25rem;
+    }
+    .single-product .wrapper .reviews .user-review p{
+        font-size: 0.7rem;
+        line-height: 1rem;
+        height: 3rem;
+        width: 21.4rem;
+        
+    }
+    .single-product .wrapper .reviews .user-review h1{
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+        text-align: left;
+    }
+    .single-product .wrapper .reviews .user-review .stars img{
+        width: 0.92rem;
+        height: 0.92rem;
+    }
+    .single-product .wrapper .reviews .user-review ul .name{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin: 0 0.3em 0 -2.5em;
+    }
+    .single-product .wrapper .load{
+        margin: 1.6rem auto;
+        width: 13.2rem;
+        height: auto;
+        padding: 0.9rem 2.5rem 0.9rem 3.8rem;
+        border-radius: 3.875rem;
+        border: 1px solid var(--gray-color);
+    
+    }
+    .single-product .wrapper .load a{
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+    section .also-liked{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+        
+    }
+    
+    section .also-liked .product-list{
+        width: 51rem;
+        height: auto;
+    }
+    section .also-liked .product-list a{
+        width: 12.1rem;
+        height: 20rem;
+        margin-left: -1.3rem;
+    }
+    section .also-liked h2, section .also-liked h3{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    
+    }
+    section .also-liked .product-list a p{
+        margin-top: -1.8em;
+    }
+    section .also-liked .product-list i{
+        font-size: 0.8rem;
+    }
+    
+    section .also-liked .product-list .group-1, 
+    section .also-liked .group-2.visible{
+        max-width: 51rem;
+        gap: 1rem;
+    }
+    section .also-liked .product-list img{
+        width: 9.8rem;
+        height: 11.1rem;
+    }
+    section .also-liked .product-list h2{
+        height: 1rem;
+    }
+    section .also-liked .product-list button{
+        width: 8.9rem;
+        height: auto;
+        padding: 0.6rem 2.22rem;
+        border-radius: 2.5rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
+        
+    }
+    
+    
+    /*footer*/
+    footer .boxes-container{
+        margin-left: 4.6rem;
+    }
+    footer .gray-box{
+        width: 59.22rem;
+    }
+    footer .black-box{
+        width: 51rem;
+        height: 7.4rem;
+        margin-left: 1.97rem;
+        top: -3.29em;
+        border-radius: 0.82rem;
+        padding: 1.48rem 2.63rem;
+    }
+    footer .black-box h1{
+        font-size: 2.04rem;
+        line-height: 1.84rem;
+        width: 22.66rem;
+    }
+    footer .black-box .email-subscribe{
+        gap: 0.59rem;
+    }
+    footer .black-box .email-subscribe  input, footer .black-box .email-subscribe button{
+        width: 14.35rem;
+        height: 1.97rem;
+        padding: 0 0 0 0.33rem;
+        border-radius: 2.55rem;
+    }
+    footer .black-box .email-subscribe input, footer .black-box .email-subscribe button{
+        font-size: 0.66rem;
+        line-height: 0.88rem;
+    }
+    footer .black-box .email-subscribe button{
+        width: 14.35rem;
+    }
+    footer .gray-box .footer-content{
+        width: 51rem;
+        height: auto;
+        margin-top: -1.23em;
+        margin-left: 1.97rem;
+    
+    
+    }
+    footer .gray-box .footer-content .left-footer .same-title{
+        font-size: 1.38rem;
+        line-height: 1.65rem;
+        text-align: left;
+        margin: 0 0 0.82rem 0;
+    }
+    footer .gray-box .footer-content .left-footer .social-media{
+        gap: 0.4rem;
+        margin: 0.82rem 0 0.33rem -2.5em;
+    }
+    footer .gray-box .footer-content .right-footer .cat-title{
+        font-size: 0.65rem;
+        line-height: 0.74rem;
+        letter-spacing: 0.13rem;
+        margin: 0 0 0.822rem 0;
+    }
+    footer .gray-box .footer-content .right-footer .cat, footer .gray-box .footer-content .left-footer p{
+        font-size: 0.65rem;
+        line-height: 0.78rem;
+        margin: 0 0 0.411rem 0;
+    }
+    footer .gray-box .footer-of-footer{
+        width: 51rem;
+    }
+    footer .gray-box .footer-of-footer h2{
+        width: 11.1rem;
+        font-size: 0.57rem;
+        line-height: 1.19rem;
+        margin: 0.66rem 0 0 -0.59em;
+    }
+    footer .gray-box .footer-of-footer .pay{
+        width: 11.58rem;
+        height: 1.24rem;
+        gap: 0.33rem;
+    }
+    footer .gray-box .footer-of-footer .pay img{
+        width: 1.9rem;
+        height: 1.25rem;
+        
+    }
+    footer .line{
+        width: 50.7rem;
+        margin-left: 1.97rem;
+    }
+}
+@media(min-width: 620px) and (max-width:869px){
+    /*header*/
+    header .bar h2, header .bar a{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    header .bar .address{
+        left: 20%;
+        width: 30.2rem;
+    }
+    header .bar img{
+        display: none;
+    }
+    header nav{
+        display: none;
+    }
+    
+    header .mobile-nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+    header .mobile-nav .mobile-nav-container{
+        width: 36rem;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .mobile-nav .menu-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    header .mobile-nav .menu-icon.visible{
+        width: 1.9rem;
+        height: 1.45rem;
+        margin-top: 0.483rem;
+    }
+    header .mobile-nav .menu-icon.hidden{
+        display: none;
+    }
+    header .mobile-nav .menu-container.hidden{
+        display: none;
+    }
+    header .mobile-nav .menu-container.visible{
+        display: flex;
+        flex-direction: column;
+        background: var(--black-color);
+        gap: 0.4rem;
+        width: 100%;
+        height: auto;
+        z-index: 5;
+        position: fixed;
+        top: 1.8rem;
+        left: 0;
+        transition: 2s ease-in-out;
+        
+    }
+    header .mobile-nav .menu-container li{
+        list-style: none;
+        
+
+    }
+    header .mobile-nav .menu-container a{
+        text-decoration: none;
+        font-family:"Barlow Condensed", sans-serif;
+        color: var(--light-color);
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 0.8rem;
+    }
+    header .mobile-nav .menu-logo .logo{
+        font-family:"Barlow Condensed", sans-serif;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-left: 1rem;
+    }
+    header .mobile-nav .rest ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+    }
+    header .mobile-nav .rest ul img{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .header-line, .line ,.small-line{
+        width: 36rem;
+    }
+    /*section*/
+    section .title{
+        font-size: 3rem;
+        line-height: 3.25rem;
+        width: 15.625rem;
+    
+    } 
+    .single-product .arrows-container .Arrows{
+        width: 36rem;
+        height: 3rem;
+    }
+    .single-product .arrows-container  .arrows{
+        width: 22.5rem; 
+        gap: 0.32rem;
+        height: auto;
+        list-style: none;
+        margin-left: -2.2rem;
+    }
+    
+    .single-product .arrows li{
+        font-size: 1.25rem;
+        line-height: 1.35rem;
+    }
+    .single-product .arrows img{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .single-product .hero-sec .hero-sec-container{
+        width: 36rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .single-product .hero-sec .left img{
+        max-width: 36rem;
+        height: 29.2rem;
+    }
+    .single-product .hero-sec .right{
+        width: 36rem;
+        margin-left: 0.7rem;
+    
+    }
+    .single-product .hero-sec .right ul{
+        list-style: none;
+        display: flex;
+        align-items: center; 
+        width: 36rem;
+        height: 2.44rem;
+        gap: 0.5rem;
+        margin: 1.25rem 0 1.25rem -2em;
+    }
+    .single-product .hero-sec .right ul li button{
+        width: 8.52rem;
+        height: 3.2rem;
+        padding: 0.625rem 1.25rem;
+        font-size: 0.875rem;
+        line-height: 1.18rem;
+    }
+    .single-product .hero-sec .right .cart-stuff{
+        justify-content: space-between;
+        gap: 1.6rem;
+        width: 36rem;
+        margin-left: 0.5rem;
+        
+    }
+    .single-product .hero-sec .right .add-subtract{
+        display: flex;
+        margin-top: 0.625rem;
+        margin: 0.625rem 0;
+        width: 11.5rem;
+        height: 3.2rem;
+        padding: 0.75rem 1rem;
+    }
+    .single-product .hero-sec .right .add-subtract button{
+        width: 2rem;
+        height: 2rem;
+    }
+    .single-product .right .right-up div{
+        gap: 0.64rem;
+        width: 15.48rem;
+        height: 1.9rem;
+        margin-top: 0;
+    }
+    .single-product .right .right-up div .rate i{
+        font-size: 1.7rem;
+    }
+    .single-product .right .right-up div h2{
+        font-size: 01.3rem;
+    }
+    .single-product .right .right-up h1{
+        font-size: 2rem;
+        width: 26.6rem;
+        height: auto;
+        margin-bottom: 0.1rem;
+    }
+    .single-product .right .right-up p{
+        width: 36rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+    }
+    .single-product .right .right-up h3{
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: 2rem;
+    }
+
+    .single-product .hero-sec .right .cart-stuff .add-to-cart{
+        width: 24.5rem;
+        height: 3.2rem;
+        margin-left: 0;
+        padding: 0.625rem 3.3rem;
+        border-radius: 3.8rem;
+        font-size: 0.875rem;
+        line-height: 1.18rem;
+    }
+
+    .single-product .wrapper .wrapper-container{
+        width: 36rem;
+    }
+    .single-product .wrapper .tabs{
+        margin-left: -2em;
+    }
+    .single-product .wrapper .tabs ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0.5rem 0;
+    
+    }
+    .single-product .wrapper .tabs .large-line{
+        width: 36rem;
+        margin-left: 2.5rem;
+    }
+    .single-product .wrapper .tabs ul li{
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        margin-top: 1rem;
+    }
+    .single-product .wrapper .all{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 0 0.5rem;
+        width: 36rem;
+    }
+    .single-product .wrapper .all .review h1{
+        font-size: 2rem;
+        line-height: 1.6875rem;
+        width: 10.56rem;
+    }
+    .single-product .wrapper .all .review h1 span{
+        width: 1.8rem;
+        height: 0.625rem;
+        font-size: 0.875rem;
+    }
+    .single-product .wrapper .all .settings ul{
+        justify-content: space-around;
+        width: 36rem;
+        margin-left: 1.5rem;
+    
+    }
+    .single-product .wrapper .all .settings ul .set{
+        width: 3.6em;
+        height: 3.6rem;
+    }
+    .single-product .wrapper .all .settings ul .two{
+        display: none;
+    
+    }
+    .single-product .wrapper .all .settings ul .shift{
+        position: relative;
+        left: 10%;
+    }
+    .single-product .wrapper .all .settings ul .write{
+        width: 10.87rem;
+        height: 3.6rem;
+        padding: 1rem 1.25rem;
+        border-radius: 3.875rem;
+        position: relative;
+        left: -28%;
+    }
+    .single-product .wrapper .all .settings ul .write a{
+        color: var(--light-color);
+        font-size: 0.75rem;
+    }
+    .single-product .wrapper .reviews{
+        width: 39rem;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 0;
+    }
+    .single-product .wrapper .reviews .user-review{
+        max-width: 36rem;
+        height: 17rem;
+        padding: 1.5rem;
+        border-radius: 1.25rem;
+        border: 1px solid var(--gray-color);
+        font-family: "Barlow Condensed", sans-serif;
+        color: var(--dark-color);
+        text-align: left;
+        margin-left: 0.5rem;
+    }
+    .single-product .wrapper .reviews .user-review p{
+        width: 31.173rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        height: 5rem;
+        margin-top: 0;
+        
+    }
+    .single-product .wrapper .reviews .user-review h1{
+        margin-top: 3rem;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+        text-align: left;
+    }
+    .single-product .wrapper .reviews .user-review .stars img{
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+    .single-product .wrapper .reviews .user-review .stars{
+        margin: -0.5em 0 0 -2.5em;
+    }
+    .single-product .wrapper .reviews .user-name{
+        display: flex;
+        align-items: center;
+        margin-top: -0.5em;
+    }
+    .single-product .wrapper .reviews .user-review ul .name{
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.375rem;
+        margin: 0 0.3em 0 -1.6em;
+        color: var(--black-color);
+    
+    }
+    .single-product .wrapper .reviews .user-name img{
+        margin: 0 0 0 0.2rem;
+    }
+    .single-product .wrapper .load{
+        margin: 2.5rem auto;
+        width: 19rem;
+        height: 2.9375rem;
+        padding: 0.75rem 2rem 0.875rem 5rem;
+    
+    }
+    .single-product .wrapper .load a{
+        font-size: 1.4rem;
+        line-height: 1.2rem;
+    }
+    section .Title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section .title .title{
+        width: 36rem;
+    }
+    section .product-list{
+        min-width: 39rem;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        margin-bottom: 9rem;
+    }
+    section .also-liked .product-list::-webkit-scrollbar{
+        width: 0;
+    }
+    section .also-liked a{
+        font-family: "Barlow Condensed", sans-serif;
+        color: var(--black-color);
+        text-decoration: none;
+        min-width: 12.375rem;
+        height: 10rem;
+    }
+    section .also-liked h2{
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 3.2rem;
+        font-weight: 400;
+        line-height: 2.2rem;
+        text-align: left;
+
+    
+    }
+    section .also-liked p{
+        margin-top: -2.5rem;
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+    section .also-liked h3{
+        font-size: 1.25rem;
+        line-height: 1.7rem;
+        margin-top: -0.5rem;
+    }
+    section .also-liked i{
+        color: var(--yellow-color);
+        font-size: 0.7rem;
+    }
+    section .also-liked .group-2.hidden{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+    section .also-liked .group-1, 
+    section .also-liked .group-2.visible{
+        height: auto;
+        
+        
+    }
+    section .also-liked img{
+        width: 12.375rem;
+        height: 12.5rem;
+    }
+    section .also-liked h2{
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.35rem;
+        margin-bottom: -1rem;
+    }
+    section .also-liked.button{
+        display: none;
+        
+    }
+    section .also-liked .product-list button{
+        display: none;
+        
+    }
+    /*footer*/
+    footer .boxes-container{
+        margin-left: 2.5rem;
+    }
+    footer .gray-box{
+        width: 39rem;
+    }
+    
+    footer .black-box{
+        z-index: 10;
+        background: var(--black-color);
+        width: 36rem;
+        height: 18.3rem;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        top: -10em;
+        padding: 0.5rem 1.9rem;
+    }
+    footer .black-box h1{
+        font-size: 3.2rem;
+        font-weight: 700;
+        line-height: 2.7rem;
+        text-align: center;
+        width: 29.9rem;
+        height: 6.56;
+        color: var(--light-color);
+    }
+    footer .black-box .email-subscribe{
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+    footer .black-box .email-subscribe  input, footer .black-box .email-subscribe button{
+        width: 31.3rem;
+        height: 2.635rem;
+        padding: 0.75rem 1rem;
+        margin-left: -2.4rem;
+    }
+    footer .black-box .email-subscribe input, footer .black-box .email-subscribe button{
+        font-size: 0.875rem;
+        line-height: 1.35rem;
+    }
+    footer .gray-box .footer-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        width: 39rem;
+        height: auto;
+        margin-top: -9em;
+        margin-left: 0.5rem;
+    
+    
+    }
+    footer .gray-box .footer-content .left-footer .same-title{
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 2.16rem;
+        text-align: left;
+        margin: 0 0 1.25rem 0;
+    }
+    footer .gray-box .footer-content .right-footer .cat-title{
+        font-size: 0.875rem;
+        margin: 0.5rem 0;
+    }
+    footer .gray-box .footer-content .right-footer .cat, footer .gray-box .footer-content .left-footer p{
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+    footer .gray-box .footer-of-footer{
+        width: 36rem;
+        flex-direction: column;
+    }
+    footer .gray-box .footer-of-footer h2{
+        width: 27rem;
+        font-size: 1.5rem;
+        margin: 1rem 0 0 -1rem;
+    }
+    footer .gray-box .footer-of-footer .pay{
+        width: 24.3rem;
+        height: 1.73rem;
+        gap: 0.1rem;
+        margin-left: 3rem;
+    }
+    footer .gray-box .footer-of-footer .pay img{
+        width: 3.9rem;
+    }
+    footer .line{
+        width: 35.9rem;
+        margin-left: 0;
+    }
+}
+@media(min-width: 390px) and (max-width:619px){
+    /*header*/
+    header{
+        height: auto;
+    }
+    header .bar .address{
+        position: relative;
+        left: 10%;
+        width: 18.8rem;
+    }
+    header .bar{
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    header .bar h2, header .bar a{
+        font-family:"Barlow Condensed", sans-serif;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+    header .bar img{
+        display: none;
+    }
+    header nav{
+        display: none;
+    }
+    
+    header .mobile-nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+    header .mobile-nav .mobile-nav-container{
+        width: 22.375rem;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .mobile-nav .menu-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+    }
+    header .mobile-nav .menu-icon.visible{
+        width: 1.2rem;
+        height: 0.9rem;
+        margin-top: 0.3em;
+    }
+    header .mobile-nav .menu-icon.hidden{
+    display: none;
+    }
+    header .mobile-nav .menu-container.hidden{
+        display: none;
+    }
+    header .mobile-nav .menu-container.visible{
+        display: flex;
+        flex-direction: column;
+        background: var(--black-color);
+        gap: 0.25rem;
+        width: 100%;
+        height: auto;
+        z-index: 5;
+        position: fixed;
+        top: 1rem;
+        left: 0;
+        transition: 2s ease-in-out;
+        
+    }
+    header .mobile-nav .menu-container li{
+        list-style: none;
+        
+
+    }
+    header .mobile-nav .menu-container a{
+        text-decoration: none;
+        font-family:"Barlow Condensed", sans-serif;
+        color: var(--light-color);
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+    header .mobile-nav .menu-logo .logo{
+        font-family:"Barlow Condensed", sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        margin-left: 1rem;
+    }
+    header .mobile-nav .rest ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        list-style: none;
+    }
+    header .mobile-nav .rest ul img{
+        width: 1.125rem;
+        height: 1.125rem;
+    }
+    .line{
+        width: 22.375rem;
+        border: 1px solid var(--gray-color);
+    
+    }
+    .header-line{
+        width: 22.375rem;
+    }
+    .small-line{
+        width: 22.375rem;
+    }
+    /*section*/
+    section .title{
+        font-size: 2rem;
+        line-height: 2.25rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        width: 15.625rem;
+    
+    } 
+    section ul{
+        list-style: none;
+    }
+    .single-product .arrows-container .Arrows{
+        width: 22.375rem;
+        height: 1.875rem;
+    }
+    .single-product .arrows-container  .arrows{
+        width: 14rem; 
+        gap: 0.2rem;
+        height: auto;
+        list-style: none;
+        margin-left: -2rem;
+    }
+    
+    .single-product .arrows li{
+        font-size: 0.8rem;
+        line-height: 1.35rem;
+    }
+    .single-product .arrows img{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    .single-product .hero-sec .hero-sec-container{
+        width: 22.375rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .single-product .hero-sec .left img{
+        max-width: 22.375rem;
+        height: 18.125rem;
+    }
+    .single-product .hero-sec .right{
+        width: 22.375rem;
+    
+    }
+    .single-product .hero-sec .right ul{
+        list-style: none;
+        display: flex;
+        align-items: center; 
+        width: 22rem;
+        height: 2.44rem;
+        gap: 0.5rem;
+        margin: 1.25rem 0 1.25rem -2.5em;
+    }
+    .single-product .hero-sec .right ul li button{
+        width: 5.3rem;
+        height: 2.44rem;
+        padding: 0.625rem 1.25rem;
+        font-size: 0.75rem;
+        line-height: 1.18rem;
+    }
+    .single-product .hero-sec .right .cart-stuff{
+        justify-content: space-between;
+        gap: 1rem;
+        width: 23rem;
+        
+    }
+    .single-product .hero-sec .right .add-subtract{
+        display: flex;
+        margin-top: 0.625rem;
+        margin: 0.625rem 0;
+        width: 6.875rem;
+        height: 2.75rem;
+        padding: 0.75rem 1rem;
+    }
+    .single-product .hero-sec .right .add-subtract button{
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .single-product .right .right-up div{
+        display: flex;
+        flex-direction:row;
+        gap: 0.4rem;
+        width: 9.625rem;
+        height: 1.18rem;
+        margin-top: 0;
+    }
+    .single-product .right .right-up div .rate i{
+        font-size: 1.17rem;
+        color: var(--yellow-color)
+    }
+    .single-product .right .right-up div h2{
+        font-size: 0.875rem;
+    }
+    .single-product .right .right-up h1{
+        font-size: 1.5rem;
+        text-align: left;
+        width: 16.6875rem;
+        height: auto;
+        margin-bottom: 0.2rem;
+    }
+    .single-product .right .right-up p{
+        width: 22.375rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+    }
+    .single-product .right .right-up h3{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    /*.single-product .hero-sec .right .right-up h1{
+        font-size: 1rem;
+        font-weight: 700;
+    }*/
+    
+    .single-product .hero-sec .right .cart-stuff .add-to-cart{
+        width: 14.75rem;
+        height: 2.75rem;
+        margin-left: 0;
+        padding: 0.625rem 3.3rem;
+        border-radius: 3.8rem;
+        font-size: 0.875rem;
+        line-height: 1.18rem;
+    }
+
+    .single-product .wrapper .wrapper-container{
+        width: 22.375rem;
+    }
+    .single-product .wrapper .tabs{
+        margin-left: -2em;
+    }
+    .single-product .wrapper .tabs ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0.5rem 0;
+    
+    }
+    .single-product .wrapper .tabs .large-line{
+        width: 22.375rem;
+        margin-left: 2rem;
+    }
+    .single-product .wrapper .tabs ul li{
+        font-size: 1rem;
+        line-height: 1.375rem;
+    }
+    .single-product .wrapper .all{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 0 0.5rem;
+        width: 22.375rem;
+    }
+    .single-product .wrapper .all .review h1{
+        font-size: 1.25rem;
+        line-height: 1.6875rem;
+        width: 6.5625rem;
+    }
+    .single-product .wrapper .all .review h1 span{
+        width: 1.8rem;
+        height: 0.625rem;
+        font-size: 0.875rem;
+    }
+    .single-product .wrapper .all .settings ul{
+        justify-content: space-around;
+        width: 22.75rem;
+        margin-left: -1rem;
+    
+    }
+    .single-product .wrapper .all .settings ul .set{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .single-product .wrapper .all .settings ul .two{
+        display: none;
+    
+    }
+    .single-product .wrapper .all .settings ul .shift{
+        position: relative;
+        left: 10%;
+    }
+    .single-product .wrapper .all .settings ul .write{
+        width: 7.375rem;
+        height: 3rem;
+        padding: 1rem 1.25rem;
+        border-radius: 3.875rem;
+        position: relative;
+        left: -25%;
+    }
+    .single-product .wrapper .all .settings ul .write a{
+        color: var(--light-color);
+        font-size: 0.75rem;
+    }
+    .single-product .wrapper .reviews{
+        width: 24.375rem;
+        grid-template-columns: 1fr;
+        gap: 0.625rem;
+        margin: 0;
+    }
+    .single-product .wrapper .reviews .user-review{
+        max-width: 22.375rem;
+        height: 14.5rem;
+        padding: 1.5rem;
+        border-radius: 1.25rem;
+        border: 1px solid var(--gray-color);
+        font-family: "Barlow Condensed", sans-serif;
+        color: var(--dark-color);
+        text-align: left;
+        margin-left: 0;
+    }
+    .single-product .wrapper .reviews .user-review p{
+        width: 19.375rem;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        height: 5rem;
+        margin-top: -1em;
+        
+    }
+    .single-product .wrapper .reviews .user-review h1{
+        margin-top: 2.5rem;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+        text-align: left;
+    }
+    .single-product .wrapper .reviews .user-review .stars img{
+        width: 1.24rem;
+        height: 1.24rem;
+    }
+    .single-product .wrapper .reviews .user-review .stars{
+        margin: -0.5em 0 0 -2.5em;
+    }
+    .single-product .wrapper .reviews .user-name{
+        display: flex;
+        align-items: center;
+        margin-top: -0.5em;
+    }
+    .single-product .wrapper .reviews .user-review ul .name{
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.375rem;
+        margin: 0 0.3em 0 -2.5em;
+        color: var(--black-color);
+    
+    }
+    .single-product .wrapper .reviews .user-name img{
+        margin: 0 0 0 0.2rem;
+    }
+    .single-product .wrapper .load{
+        margin: 2.5rem auto;
+        width: 12.2rem;
+        height: 2.9375rem;
+        padding: 0.875rem 2rem 0.875rem 3.25rem;
+    
+    }
+    .single-product .wrapper .load a{
+        font-size: 0.875rem;
+        line-height: 1.2rem;
+    }
+    section .Title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section .title .title{
+        width: 22.375rem;
+    }
+    section .product-list{
+        min-width: 24.375rem;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        margin-bottom: 9rem;
+    }
+    section .also-liked .product-list::-webkit-scrollbar{
+        width: 0;
+    }
+    section .also-liked a{
+        font-family: "Barlow Condensed", sans-serif;
+        color: var(--black-color);
+        text-decoration: none;
+        min-width: 12.375rem;
+        height: 10rem;
+    }
+    section .also-liked h2{
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.2rem;
+        text-align: left;
+
+    
+    }
+    section .also-liked p{
+        margin-top: -2.5rem;
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+    section .also-liked h3{
+        font-size: 1.25rem;
+        line-height: 1.7rem;
+        margin-top: -0.5rem;
+    }
+    section .also-liked i{
+        color: var(--yellow-color);
+        font-size: 0.7rem;
+    }
+    section .also-liked .group-2.hidden{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+    section .also-liked .group-1, 
+    section .also-liked .group-2.visible{
+        height: auto;
+        
+        
+    }
+    section .also-liked img{
+        width: 12.375rem;
+        height: 12.5rem;
+    }
+    section .also-liked h2{
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.35rem;
+        margin-bottom: -1rem;
+    }
+    section .also-liked.button{
+        display: none;
+        
+    }
+    section .also-liked .product-list button{
+        display: none;
+        
+    }
+    /*footer*/
+    footer .boxes-container{
+        margin-left: 2.5rem;
+    }
+    footer .gray-box{
+        width: 24.375rem;
+    }
+    
+    footer .black-box{
+        z-index: 10;
+        background: var(--black-color);
+        width: 22.375rem;
+        height: 18.3rem;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -0.3rem;
+        top: -10em;
+        padding: 0.5rem 1.9rem;
+    }
+    footer .black-box h1{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.2rem;
+        text-align: center;
+        width: 18.56rem;
+        height: 6.56;
+        color: var(--light-color);
+    }
+    footer .black-box .email-subscribe{
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+    footer .black-box .email-subscribe  input, footer .black-box .email-subscribe button{
+        width: 19.44rem;
+        height: 2.635rem;
+        padding: 0.75rem 1rem;
+        margin-left: -2.4rem;
+    }
+    footer .black-box .email-subscribe input, footer .black-box .email-subscribe button{
+        font-size: 0.875rem;
+        line-height: 1.35rem;
+    }
+    footer .gray-box .footer-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        width: 22.375rem;
+        height: auto;
+        margin-top: -9em;
+        margin-left: 0.5rem;
+    
+    
+    }
+    footer .gray-box .footer-content .left-footer .same-title{
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 2.16rem;
+        text-align: left;
+        margin: 0 0 1.25rem 0;
+    }
+    footer .gray-box .footer-content .right-footer .cat-title{
+        font-size: 0.875rem;
+        margin: 0.5rem 0;
+    }
+    footer .gray-box .footer-content .right-footer .cat, footer .gray-box .footer-content .left-footer p{
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+    footer .gray-box .footer-of-footer{
+        width: 22.375rem;
+        flex-direction: column;
+    }
+    footer .gray-box .footer-of-footer h2{
+        margin: 1rem 0 0 0;
+    }
+    footer .gray-box .footer-of-footer .pay{
+        width: 15.1rem;
+        height: 1.73rem;
+        gap: 0.1rem;
+        margin-left: 1.9rem;
+    }
+    footer .gray-box .footer-of-footer .pay img{
+        width: 2.4rem;
+    }
+    footer .line{
+        width: 22.2rem;
+        margin-left: 0;
+    }
+}
+/*
+
+
+
+
+
+
+
+
+
+

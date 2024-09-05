@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=New+Amsterdam&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <div class="bar-container">
+            <div class="bar">
+                <div class="address">
+                    <h2>Sign up and get 20% off to your first order.<a href="#"> Sign Up Now</a></h2>
+                </div>
+                <div class="close">
+                    <div><a href="#"><img src="../home/home-images/cross.svg"></a></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">SHOP.CO</div>
+                <ul class="titles">
+                    <li><a href="#">shop</a>
+                        <a href="#"><img src="../cart/cart-images/arrow.svg"></a>
+                    </li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrival</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+                <input type="search" class="search-icon" placeholder="Search for products...">
+                <ul class="vectors">
+                    <li><a href="cart/cart.html"><img src="../home/home-images/buy.svg"></a></li>
+                    <li><a href="#"><img src="../home/home-images/user.svg"></a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <nav class="mobile-nav">
+            <div class="mobile-nav-container">
+                <div class="menu-container hidden">
+                    <ul>
+                        <li><a href="#">shop</a>
+                            <a href="#"><img src="../cart/cart-images/arrow.svg"></a>
+                        </li>
+                        <li><a href="#">On Sale</a></li>
+                        <li><a href="#">New Arrival</a></li>
+                        <li><a href="#">Brands</a></li>
+                    </ul>
+                </div>
+                <div class="menu-logo">
+                    <div>
+                        <img class="menu-icon visible"  src="../home/home-images/menu-icon.svg">
+                    </div>
+                    <div class="logo">SHOP.CO</div>
+                </div>
+                <div class="rest">
+                    <ul>
+                        <li><img src="../home/home-images/another-search.svg"></li>
+                        <li><img src="../home/home-images/cart.svg"></li>
+                        <li><img src="../home/home-images/user.svg"></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--End of Header-->
+    <hr class="header-line">
+    <div class="arrows-container">
+        <div class="Arrows">
+            <ul class="arrows">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li><img src="../cart/cart-images/another-arrow.svg"></li>
+                <li class="black">Cart</li>
+    
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    <section class="cart">
+        <div class="title-container">
+            <div class="Title">
+                <h1 class="title">Your Cart</h1>
+            </div>
+        </div>
+        <div class="contains-container">
+            <div class="contains-all">
+                <div class="cart-items">
+                </div>
+                <!--<div class="order-summary">
+                    <h2>Order Summary</h2>
+                    <p>Subtotal: <span class="subtotal">$0.00</span></p>
+                    <p>Discount (-20%): <span class="discount">-$0.00</span></p>
+                    <p>Delivery Fee: <span class="delivery-fee">$15.00</span></p>
+                    <p>Total: <span class="total">$15.00</span></p>
+                    <button class="checkout-button">Go to Checkout</button>
+                </div>-->
+                <div class="right">
+                    <h2 class="sub-title">Our Summary</h2>
+                    <div class="details">
+                        <div class="details-left">
+                            <ul class="names">
+                                <li>Subtotal</li>
+                                <li>Discount (-20%)</li>
+                                <li>Delivery Fee</li>
+                            </ul>
+                        </div>
+                        <div class="details-right">
+                            <ul class="prices">
+                                <li class="subtotal">$0.00</li>
+                                <li  class="discount">-$0.00</li>
+                                <li class="delivery-fee">$15.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr class="small-line">
+                    <div class="sum">
+                        <div class="sum-left">
+                            <h2>Total</h2>
+                        </div>
+                        <div class="total">
+                            <h2>$15.00</h2>
+                        </div>
+                    </div>
+                    <div class="enter">
+                        <input placeholder="Add promo code">
+                        <button>Apply</button>
+                    </div>
+                    <div class="checkout">
+                        <a href="#">Go to Checkout</a>
+                        <div><i class="fa-solid fa-arrow-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Section-->
+    <footer>
+        <div class="boxes-container">
+            <div class="gray-box">
+                <div class="black-box">
+                    <h1>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+                    <ul class="email-subscribe">
+                        <li><input placeholder="Enter your email address"></li>
+                        <li><button>Subscribe to Newsletter</button></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <div class="left-footer">
+                        <h1 class="same-title">SHOP.CO</h1>
+                        <p>
+                            We have clothes that suits your style and,<br>
+                            which you’re proud to wear. From<br>
+                            women to men.
+                        </p>
+                        <ul class="social-media">
+                            <li><img src="../cart/cart-images/twitter.png"></li>
+                            <li><img src="../cart/cart-images/fb.png"></li>
+                            <li><img src="../cart/cart-images/ig.png"></li>
+                            <li><img src="../cart/cart-images/cat.png"></li>
+                        </ul>
+                    </div>
+                    <div class="right-footer">
+                        <ul class="cat">
+                            <li class="cat-title">COMPANY</li>
+                            <li>About</li>
+                            <li>Features</li>
+                            <li>Works</li>
+                            <li>Career</li>
+                        </ul>
+                    </div>
+                    <div class="right-footer">
+                        <ul class="cat">
+                            <li class="cat-title">HELP</li>
+                            <li>Customer Support</li>
+                            <li>Delivery Details</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>    
+                    <div class="right-footer">
+                        <ul class="cat">
+                            <li class="cat-title">FAQ</li>
+                            <li>Account</li>
+                            <li>Manage</li>
+                            <li>Orders</li>
+                            <li>Payments</li>
+                        </ul>
+                    </div>    
+                    <div class="right-footer">
+                        <ul class="cat">
+                            <li class="cat-title">RESOURCES</li>
+                            <li>Free eBooks</li>
+                            <li>Development Tutorial</li>
+                            <li>How to - Blog</li>
+                            <li>Youtube Playlist</li>
+                        </ul>
+                    </div>      
+                </div>
+                <hr class="line">
+                <div class="footer-of-footer">
+                    <h2>Shop.co © 2000-2023, All Rights Reserved</h2>
+                    <ul class="pay">
+                        <li><img src="../cart/cart-images/visa.png"></li>
+                        <li><img src="../cart/cart-images/mastercard.png"></li>
+                        <li><img src="../cart/cart-images/paypal.png"></li>
+                        <li><img src="../cart/cart-images/ipay.png"></li>
+                        <li><img src="../cart/cart-images/gpay.png"></li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+        
+    </footer>
+    <script src="../script.js"></script>
+    <script src="../product/product.js"></script>
+    <script src="../cart/cart.js"></script>
+    
+</body>
+</html>
